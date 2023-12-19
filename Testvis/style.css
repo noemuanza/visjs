@@ -9,8 +9,10 @@ body, html {
     align-items: center;
     justify-content: center;
     width : 100%;
+    font-family: 'Courier New', Courier, monospace;
+
   }
-  
+
   #visualization {
     background-color: white; /* Fond blanc pour la timeline */
     width: 100%; /* La timeline prend toute la largeur disponible */
