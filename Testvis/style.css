@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: grey; /* Fond noir pour la page entière */
+    color: black; /* Couleur de texte blanche pour toute la page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width : 100%;
+  }
+  
+  #visualization {
+    background-color: white; /* Fond blanc pour la timeline */
+    width: 100%; /* La timeline prend toute la largeur disponible */
+    height: auto; /* Hauteur auto pour s'adapter au contenu */
+    border: 1px solid #ccc; /* Bordure optionnelle pour la timeline */
+    color: black; /* Couleur de texte noire pour la timeline */
+  }

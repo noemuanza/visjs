@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple planning vue admin</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <link href="https://unpkg.com/vis-timeline@latest/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <p>Exemple planning vue admin</p>
+    <div id="visualization"></div>
+    <script src="vis-4.21.0/vis-4.21.0/dist/vis.js"></script>
+    <script src="script2.js"></script>
+    
+    <label for="inputGroup">Groupe :</label>
+    <input type="number" id="inputGroup" placeholder="Numéro du groupe">
+    
+    <label for="inputContent">Contenu :</label>
+    <input type="text" id="inputContent" placeholder="Contenu de l'item">
+    
+    <label for="inputStart">Heure de début :</label>
+    <input type="datetime-local" id="inputStart">
+    
+    <label for="inputEnd">Heure de fin :</label>
+    <input type="datetime-local" id="inputEnd">
+    
+    <button onclick="ajouterItem()">Ajouter Item</button>
+
+    <label for="inputNombreEleves">Nombre d'Élèves :</label>
+    <input type="number" id="inputNombreEleves">
+</body>
+</html>
